@@ -1,3 +1,19 @@
+# fastapi
+# uvicorn[standard]
+# pydantic
+# pydantic-settings
+# python-dotenv
+# boto3
+# pinecone
+# openai
+# langchain-text-splitters
+# pdfplumber
+# pymupdf  
+# python-docx
+# httpx
+# sentence-transformers
+# torch --index-url https://download.pytorch.org/whl/cpu
+
 fastapi
 uvicorn[standard]
 pydantic
@@ -5,11 +21,8 @@ pydantic-settings
 python-dotenv
 boto3
 pinecone
-openai
 langchain-text-splitters
 pdfplumber
 pymupdf  
 python-docx
 httpx
-sentence-transformers
-torch --index-url https://download.pytorch.org/whl/cpu
