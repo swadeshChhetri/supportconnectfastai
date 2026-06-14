@@ -7,6 +7,9 @@ class Settings(BaseSettings):
     # --- ADD THIS LINE HERE ---
     NODE_API_URL: str | None = None  # Using None makes it optional if missing
 
+    # Hugging Face (for Serverless Embeddings)
+    HF_TOKEN: str | None = None
+
     # AWS / S3
     AWS_REGION: str | None = None
     AWS_ACCESS_KEY: str | None = None
