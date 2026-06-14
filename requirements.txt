@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+boto3
+pinecone
+openai
+langchain-text-splitters
+pdfplumber
+pymupdf  
+python-docx
+httpx

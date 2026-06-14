@@ -1,0 +1,41 @@
+# Ignore local environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Ignore virtual environments
+venv/
+venv.bak/
+env/
+ENV/
+.venv/
+
+# Ignore Python cache and bytecode
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Ignore Git directory and config
+.git/
+.gitignore
+
+# Ignore local uploads and temporary files
+uploads/
+tmp_downloads/
+
+# Ignore local test and scratch files
+delete_index.py
+test_loader_output.py
+test_pinecone_query.py
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs
+*.log
