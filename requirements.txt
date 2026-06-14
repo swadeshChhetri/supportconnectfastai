@@ -26,3 +26,4 @@ pdfplumber
 pymupdf  
 python-docx
 httpx
+python-multipart
